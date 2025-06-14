@@ -119,6 +119,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo5/Aprendizagem/Aprender5-3.unity
     guid: 359bbc1192df4184893d179516ed0253
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo2/Niveis/NivelConcluido.unity
+    guid: 165723a062df8f942b31f1e061a0860e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

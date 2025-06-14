@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e98c91bcab9a53b47a189a77b40bdcaa
+guid: 6cf56e950f6fa684e90f1ca0aebbf039
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9201734054818943985
-    second: cupcakes-1133146_1280_0
+      213: -7581513707642343491
+    second: maca_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +97,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cupcakes-1133146_1280_0
+      name: maca_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 960
+        x: 2841
+        y: 1159
+        width: 1943
+        height: 2694
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f31917be5023bf70800000000000000
-      internalID: 9201734054818943985
+      spriteID: dbf2934937d09c690800000000000000
+      internalID: -7581513707642343491
       vertices: []
       indices: 
       edges: []
@@ -160,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cupcakes-1133146_1280_0: 9201734054818943985
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

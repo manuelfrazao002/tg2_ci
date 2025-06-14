@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: e98c91bcab9a53b47a189a77b40bdcaa
+guid: c67e9d7d7cde2c949a740167521ac401
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9201734054818943985
-    second: cupcakes-1133146_1280_0
+      213: -2980196429359521382
+    second: soda can_0
+  - first:
+      213: 4124390803517070111
+    second: soda can_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +100,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cupcakes-1133146_1280_0
+      name: soda can_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1280
-        height: 960
+        x: 2811
+        y: 420
+        width: 2518
+        height: 3697
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f31917be5023bf70800000000000000
-      internalID: 9201734054818943985
+      spriteID: a916323232734a6d0800000000000000
+      internalID: -2980196429359521382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soda can_1
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 3816
+        width: 1743
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bd5867597cc3930800000000000000
+      internalID: 4124390803517070111
       vertices: []
       indices: 
       edges: []
@@ -160,8 +172,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cupcakes-1133146_1280_0: 9201734054818943985
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
