@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572190608747460605, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_text
-      value: "Miss\xE3o Nutritiva"
+      value: Run, Apple Run!
       objectReference: {fileID: 0}
     - target: {fileID: 4793424583371067887, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_Name
@@ -392,11 +392,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572190608747460605, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_text
-      value: Run, Apple. Run!
+      value: "Miss\xE3o Nutritiva"
       objectReference: {fileID: 0}
     - target: {fileID: 4793424583371067887, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_Name
       value: Game1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7220623944197849244, guid: 1e0f7ce045d6327478d5c4db3b4cf3e4, type: 3}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_UseSpriteMesh
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
