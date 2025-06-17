@@ -22,7 +22,7 @@ EditorBuildSettings:
     guid: dc3365096fb694144a500ed87b1d00c2
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo4/Jogo4.unity
-    guid: 600235df234225549baaee6ff6477029
+    guid: 1a7a3247b190f28499f981d396a6303e
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo5/Jogo5.unity
     guid: afdf833aa756f984a806237d2a2a729d
@@ -84,23 +84,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Jogos/Jogo3/Aprendizagem/Aprender3-3.unity
     guid: c8d9ff13b8fde4746987f776002bb25c
   - enabled: 1
-    path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-1.unity
-    guid: 1b9a8c73600f7054f8cc23f2011a2a66
-  - enabled: 1
     path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-2.unity
-    guid: e6a3fb5c65aa5b74da54ce28edb413aa
+    guid: caf20a4c290788d45b7283e449395319
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-3.unity
-    guid: b6ade72f58e17264bb959d94b57d52a7
+    guid: 8cb2c94b32545e1459a06878a70c19af
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-4.unity
+    guid: 9a9dda8938ae4bd44a82612d562d4897
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-5.unity
+    guid: 23022824d46322148810019a959d4fcf
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-1.unity
-    guid: e4c2e9b6edfd72a468872f97fe496c61
+    guid: 28bf4defecb771048aef7a1210f97de8
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-2.unity
-    guid: b22ef61250cdebe41bb83410397da21f
-  - enabled: 1
-    path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-3.unity
-    guid: ee0ffdf22cbc35547985cc85e563fa4d
+    guid: 1c86155effd87bd4997474aee56a10d2
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo5/Niveis/Nivel5-1.unity
     guid: 9219ece93699f4243b5f5d8f1e440f53
