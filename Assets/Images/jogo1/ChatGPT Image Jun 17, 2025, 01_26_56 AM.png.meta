@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 74653740adfcf65418b6f5f821f44d8a
+guid: d2c99796be25dc245924784ca0564a20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2264623352245862100
-    second: hamburguer_0
+      213: -8302841086834543342
+    second: ChatGPT Image Jun 17, 2025, 01_26_56 AM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,7 +97,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,7 +110,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hamburguer_0
+      name: ChatGPT Image Jun 17, 2025, 01_26_56 AM_0
       rect:
         serializedVersion: 2
-        x: 967
-        y: 207
-        width: 6080
-        height: 4168
+        x: 0
+        y: 0
+        width: 1024
+        height: 819
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c21c4534f017290e0800000000000000
-      internalID: -2264623352245862100
+      spriteID: 21575b8950266cc80800000000000000
+      internalID: -8302841086834543342
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      hamburguer_0: -2264623352245862100
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

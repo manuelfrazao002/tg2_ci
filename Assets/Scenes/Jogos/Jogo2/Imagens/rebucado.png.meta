@@ -187,6 +187,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -797,7 +810,34 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      rebucado_0: -6349052951890101329
+      rebucado_1: -9017305794766995559
+      rebucado_10: -7859314443813196427
+      rebucado_11: 3934443178088998394
+      rebucado_12: 5418094628010590184
+      rebucado_13: -7896433678978706354
+      rebucado_14: 4112179071078989204
+      rebucado_15: 2401948396273116712
+      rebucado_16: 209467616838344973
+      rebucado_17: 6581916441690477032
+      rebucado_18: 4351470425416881226
+      rebucado_19: 8570186643960814534
+      rebucado_2: -2342638052512542548
+      rebucado_20: 807144857653855317
+      rebucado_21: -4051172809053194569
+      rebucado_22: 8650393883428281745
+      rebucado_23: 8037111621884823332
+      rebucado_24: 4488774511694612099
+      rebucado_25: 3018445522498054313
+      rebucado_26: -5894132445746663462
+      rebucado_3: -6146226606325885990
+      rebucado_4: 5606507859348785662
+      rebucado_5: -372850592772955899
+      rebucado_6: -9041877092140009592
+      rebucado_7: -2010322932911178858
+      rebucado_8: 3730580962001210178
+      rebucado_9: 5894317882543936077
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

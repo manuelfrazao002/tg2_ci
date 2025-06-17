@@ -202,6 +202,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -922,7 +935,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      main level_0: -4171852242087005350
+      main level_1: 6320760656825064957
+      main level_10: -3097847757262426468
+      main level_11: -1414725266796829630
+      main level_12: -7213176986827738504
+      main level_13: 8753240221940251654
+      main level_14: -8280367899782723358
+      main level_15: 5903162033175093840
+      main level_16: 756399644176336472
+      main level_17: -1145645552111534612
+      main level_18: -7507786249344815746
+      main level_19: -913071473501394080
+      main level_2: 7858125073110218621
+      main level_20: 4049026989491056396
+      main level_21: -9137357483685161795
+      main level_22: 2587848012172309435
+      main level_23: -329453615005370411
+      main level_24: 4975677597832968865
+      main level_25: 2807608918254706519
+      main level_26: -3866188091501109310
+      main level_27: 1145027199073835878
+      main level_28: -3219691194280823073
+      main level_29: -2917314649820306660
+      main level_3: -258931203172618595
+      main level_30: -7060216657658479970
+      main level_31: 5784233291418821430
+      main level_4: -4075213262313626284
+      main level_5: -611307837383147692
+      main level_6: -4925483065166858101
+      main level_7: 9041102021126194812
+      main level_8: -7826635122728176102
+      main level_9: -8834092283530008178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
