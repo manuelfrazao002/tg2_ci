@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: d2c99796be25dc245924784ca0564a20
+guid: e8236af83867ed548997ead24b33673f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8302841086834543342
-    second: ChatGPT Image Jun 17, 2025, 01_26_56 AM_0
+      213: 8589695954281764200
+    second: volume_up_300dp_000000_FILL0_wght400_GRAD0_opsz48_0
+  - first:
+      213: 7110025456856833610
+    second: volume_up_300dp_000000_FILL0_wght400_GRAD0_opsz48_1
+  - first:
+      213: -4080033339488007566
+    second: volume_up_300dp_000000_FILL0_wght400_GRAD0_opsz48_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image Jun 17, 2025, 01_26_56 AM_0
+      name: volume_up_300dp_000000_FILL0_wght400_GRAD0_opsz48_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 819
+        x: 36
+        y: 49
+        width: 115
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 21575b8950266cc80800000000000000
-      internalID: -8302841086834543342
+      spriteID: 8651393d5fab43770800000000000000
+      internalID: 8589695954281764200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume_up_300dp_000000_FILL0_wght400_GRAD0_opsz48_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 96
+        width: 39
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e9fe38b72eba260800000000000000
+      internalID: 7110025456856833610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: volume_up_300dp_000000_FILL0_wght400_GRAD0_opsz48_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 40
+        width: 90
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a01107b4fc067c0800000000000000
+      internalID: -4080033339488007566
       vertices: []
       indices: 
       edges: []
@@ -160,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ChatGPT Image Jun 17, 2025, 01_26_56 AM_0: -8302841086834543342
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

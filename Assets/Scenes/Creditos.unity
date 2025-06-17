@@ -955,7 +955,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pv00000
+  m_text: pv20454
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1698,12 +1698,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572190608747460605, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_text
-      value: Nome do aluno
+      value: "Andr\xE9 Gon\xE7alves"
       objectReference: {fileID: 0}
     - target: {fileID: 4793424583371067887, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_Name
       value: Game1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4752435488658809208, guid: 2dc6e1dd15e940f48af326c5d5c9e09e, type: 3}
     m_RemovedComponents:
     - {fileID: 814972935701847934, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
     m_RemovedGameObjects: []
