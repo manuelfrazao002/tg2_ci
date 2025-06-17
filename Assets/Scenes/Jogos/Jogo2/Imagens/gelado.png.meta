@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gelado_0: 5789376705104205743
+      gelado_1: -4818112684291821907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

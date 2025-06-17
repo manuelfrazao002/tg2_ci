@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      alface plataforma_0: -8255156527190459365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
