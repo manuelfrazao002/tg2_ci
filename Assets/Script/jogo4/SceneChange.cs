@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class SceneButtonHandler : MonoBehaviour
+public class SceneButtonHandler_Game4 : MonoBehaviour
 {
     public void LoadSceneByName(string sceneName)
     {

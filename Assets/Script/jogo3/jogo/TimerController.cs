@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class TimerController : MonoBehaviour
+public class TimerController_Game3 : MonoBehaviour
 {
 
     public float timeLimit = 60f;
