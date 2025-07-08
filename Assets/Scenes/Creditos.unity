@@ -425,11 +425,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4572190608747460605, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_text
-      value: Nome do aluno
+      value: Pavlo Khomyn
       objectReference: {fileID: 0}
     - target: {fileID: 4793424583371067887, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
       propertyPath: m_Name
       value: Game1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1792585018321923078, guid: 8a2aad94187c67840ba7de832c63b162, type: 3}
+    - target: {fileID: 7149974517112021111, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 814972935701847934, guid: e407ffa01159b424bbe37fca79c9a5e3, type: 3}
@@ -1617,7 +1625,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: pv00000
+  m_text: pv20431
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

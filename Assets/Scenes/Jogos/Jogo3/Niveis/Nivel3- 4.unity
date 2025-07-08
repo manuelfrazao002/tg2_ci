@@ -3613,7 +3613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec96a4b34c56fd429a906a9b45a80c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cenaFinal: Nivel3-6
+  cenaFinal: Nivel3- 6
 --- !u!1 &1847634199
 GameObject:
   m_ObjectHideFlags: 0
