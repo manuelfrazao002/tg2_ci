@@ -475,7 +475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5994853505433009962, guid: 9a6dd62761156384db8191b62363a8a1, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: PaginaPrincipal
+      value: PaginaIntroducao
       objectReference: {fileID: 0}
     - target: {fileID: 5994853505433009962, guid: 9a6dd62761156384db8191b62363a8a1, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
