@@ -134,6 +134,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jogos/Jogo2/Aprendizagem/Aprender2-4.unity
     guid: c7fac1ec3b198904c96c897500622dd3
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-3.unity
+    guid: df46b208e5a3640449a14522a44ac687
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-4.unity
+    guid: a91d275aa400ad644ac20c683bb80813
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
