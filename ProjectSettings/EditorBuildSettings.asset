@@ -51,6 +51,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Jogos/Jogo1/Aprendizagem/Aprender1-4.unity
     guid: 7c054cc77e56a864c9748e2adfe29f14
   - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Aprendizagem/Aprender3-2_1.unity
+    guid: 5752235c835f9634cbff87e3f762a897
+  - enabled: 1
     path: Assets/Scenes/Jogos/Jogo2/Niveis/Nivel2-1.unity
     guid: c74cf9e1ac76a6d4e86e04687387d970
   - enabled: 1
