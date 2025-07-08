@@ -246,7 +246,7 @@ MonoBehaviour:
   - {fileID: 140638504}
   - {fileID: 1822573173}
   amplitude: 5
-  velocidadeHorizontal: 6
+  velocidadeHorizontal: 3
   velocidadeDescida: 8
 --- !u!1 &91631385
 GameObject:
