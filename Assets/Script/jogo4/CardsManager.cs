@@ -25,6 +25,8 @@ public class CardsManager : MonoBehaviour
     private int numberOfMatches = 0;
     private CanvasGroup canvasGroup;
 
+    private bool canSelect = true;
+
 
     public void Start()
     {
@@ -73,86 +75,80 @@ public class CardsManager : MonoBehaviour
     }
     public void OnCardClick()
     {
-        if (EventSystem.current.currentSelectedGameObject == null)
-        {
-            return;
-        }
 
-        if (firstSelectedItem && secondSelectedItem)
-        {
+        if (!canSelect)
             return;
-        }
+
+        if (EventSystem.current.currentSelectedGameObject == null)
+            return;
+        
 
         var clickedItem = EventSystem.current.currentSelectedGameObject.GetComponentInParent<CardScript>();
-        if (!firstSelectedItem)
+
+        if (clickedItem == null)
+            return;
+
+        if (clickedItem.IsFaceUp || firstSelectedItem == clickedItem)
+            return;
+
+        StartCoroutine(HandleCardClick(clickedItem));
+    }
+
+    private IEnumerator HandleCardClick(CardScript clickedItem){
+        canSelect = false;
+
+        yield return StartCoroutine(clickedItem.FlipCardCoroutine());
+
+        if (firstSelectedItem == null)
         {
             firstSelectedItem = clickedItem;
-            firstSelectedItem.DisableCover();
+            canSelect = true;
+            yield break;
         }
-        else
+
+        secondSelectedItem = clickedItem;
+
+        yield return new WaitForSeconds(0.3f);
+
+        if (firstSelectedItem.Below.sprite.name == secondSelectedItem.Below.sprite.name)
         {
-            secondSelectedItem = clickedItem;
-            secondSelectedItem.DisableCover();
-            CompareChosenItems();
+            numberOfMatches++;
+
+            firstSelectedItem = null;
+            secondSelectedItem = null;
+
+            if (numberOfMatches == listOfCards.Count / 2)
+            {
+                StartCoroutine(LoadFinalScene());
+            }
+            canSelect = true;
+        }
+        else{
+            yield return new WaitForSeconds(1.0f);
+
+            yield return StartCoroutine(firstSelectedItem.FlipCardCoroutine());
+            yield return StartCoroutine(secondSelectedItem.FlipCardCoroutine());
+
+            firstSelectedItem = null;
+            secondSelectedItem = null;
+
+            canSelect = true;
         }
     }
 
-    private void CompareChosenItems()
-    {
-        Sprite spriteA = firstSelectedItem.Below.sprite;
-        Sprite spriteB = secondSelectedItem.Below.sprite;
 
-        if (spriteA.name == spriteB.name)
+    private IEnumerator LoadFinalScene()
         {
-            numberOfMatches++;
-            StartCoroutine(ResetAndCheckFinish(0, false));
-        }
-        else
-        {
-            StartCoroutine(ResetAndCheckFinish(2, true));
-        }
-        
-}
+         GameManager.SetSeconds(timerScript.GetTimerAndStop());
 
-    IEnumerator ResetAndCheckFinish(int numberOfSecondsToWait, bool shouldReset)
- {
- canvasGroup.interactable = false;
+        //Toca o audio de vitória
+         victoryMusic.Play();
+         //Espera que o audio termine
+            yield return new WaitForSeconds(victoryMusic.clip.length);
 
- yield return new WaitForSeconds(numberOfSecondsToWait);
-
- if (shouldReset)
- {
-
-  if (firstSelectedItem != null)
-            firstSelectedItem.EnableCover();
-
-        if (secondSelectedItem != null)
-            secondSelectedItem.EnableCover();
- 
- }
-
- firstSelectedItem = null;
- secondSelectedItem = null;
-
- canvasGroup.interactable = true;
- if (numberOfMatches == listOfCards.Count / 2)
- {
- StartCoroutine(LoadFinalScene());
- }
- }
-
-IEnumerator LoadFinalScene()
- {
- GameManager.SetSeconds(timerScript.GetTimerAndStop());
-
- //Toca o audio de vitória
-    victoryMusic.Play();
- //Espera que o audio termine
-     yield return new WaitForSeconds(victoryMusic.clip.length);
-
-        NivelManager.ultimoNivel = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
-        //Carrega a outra cena
-        SceneManager.LoadScene("Nivel4-5");
+              NivelManager.ultimoNivel = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+              //Carrega a outra cena
+             SceneManager.LoadScene("Nivel4-5");
  }
 
 }

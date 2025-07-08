@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PaginaPrincipal.unity
+    path: Assets/Scenes/PaginaIntroducao.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/PaginaPrincipal.unity
+    guid: 1dc34eae8b17e1b4f93ae9a8bce11906
   - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: ea14994f0bc73f946b8fe8f48762cf82
@@ -93,6 +96,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-4.unity
     guid: 9a9dda8938ae4bd44a82612d562d4897
   - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 2.unity
+    guid: 7300503d3915f6645a82b08484569027
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 3.unity
+    guid: 50169ecd755897247b38176a56e89ea0
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 4.unity
+    guid: a32209fe78d43744ba359474747f7bea
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 6.unity
+    guid: d5fc277216987ad4f93350f02ccd4c7b
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3-5.unity
+    guid: 8ee50d23ccc13ce4d9c07b38bc6f6d66
+  - enabled: 1
+    path: Assets/Scenes/Jogos/Jogo3/Aprendizagem/Aprender3-4.unity
+    guid: 1689546fb73bd744cb75faadf7f7bfcc
+  - enabled: 1
     path: Assets/Scenes/Jogos/Jogo4/Niveis/Nivel4-5.unity
     guid: 23022824d46322148810019a959d4fcf
   - enabled: 1
@@ -135,17 +156,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Jogos/Jogo2/Aprendizagem/Aprender2-4.unity
     guid: c7fac1ec3b198904c96c897500622dd3
   - enabled: 1
-    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 2.unity
-    guid: 7300503d3915f6645a82b08484569027
+    path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-3.unity
+    guid: df46b208e5a3640449a14522a44ac687
   - enabled: 1
-    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 3.unity
-    guid: 50169ecd755897247b38176a56e89ea0
-  - enabled: 1
-    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3-5.unity
-    guid: 8ee50d23ccc13ce4d9c07b38bc6f6d66
-  - enabled: 1
-    path: Assets/Scenes/Jogos/Jogo3/Niveis/Nivel3- 6.unity
-    guid: d5fc277216987ad4f93350f02ccd4c7b
+    path: Assets/Scenes/Jogos/Jogo4/Aprendizagem/Aprender4-4.unity
+    guid: a91d275aa400ad644ac20c683bb80813
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
