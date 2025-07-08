@@ -245,7 +245,7 @@ MonoBehaviour:
   - {fileID: 122767052}
   - {fileID: 140638504}
   - {fileID: 1822573173}
-  velocidade: 1
+  velocidade: 10
 --- !u!1 &91631385
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,8 +1498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d5d8276f5429184b8e1b9ee9db35142, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 30
-  jumpForce: 50
+  moveSpeed: 70
+  jumpForce: 200
   oilSplashPrefab: {fileID: 0}
 --- !u!114 &1308403685
 MonoBehaviour:
@@ -1551,10 +1551,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
+  m_Mass: 0.5
+  m_LinearDamping: 1
   m_AngularDamping: 0.05
-  m_GravityScale: 2
+  m_GravityScale: 15
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3232,7 +3232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ec96a4b34c56fd429a906a9b45a80c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cenaFinal: CenaFinal
+  cenaFinal: Nivel3- 6
 --- !u!1 &1847748639
 GameObject:
   m_ObjectHideFlags: 0
